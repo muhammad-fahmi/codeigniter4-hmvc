@@ -48,7 +48,27 @@
         </nav>
 
     </header>
-    <main></main>
+    <main>
+        <div class="container">
+            <div class="col">
+                <div class="row m-3">
+                    <p><?= site_url(); ?></p>
+                    <br>
+                    <form action="" style="border: 1px  solid #ccc; padding: 5px;" class="col-6">
+                        <div class="mb-3">
+                            <label for="f_nama" class="form-label">Name</label>
+                            <input type="text" class="form-control" name="f_nama" id="f_nama" aria-describedby="helpId" placeholder="Masukkan Nama Anda" />
+                            <small id="helpId" class="form-text text-muted">Help text</small>
+                        </div>
+
+                        <button type="button" class="btn btn-primary" onclick="alert('Button Clicked!')">Primary Button</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
     <footer>
         <!-- place footer here -->
     </footer>
